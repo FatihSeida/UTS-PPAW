@@ -30,6 +30,18 @@
             var pengurangan = parseInt(num1) - parseInt(num2);
             document.getElementById('add').value = pengurangan;
 	    }
+		function kali(){
+            var num1 = document.myform.angka1.value;
+            var num2 = document.myform.angka2.value;
+            var perkalian = parseInt(num1) * parseInt(num2);
+            document.getElementById('add').value = perkalian;
+		}
+        function bagi(){
+            var num1 = document.myform.angka1.value;
+            var num2 = document.myform.angka2.value;
+            var pembagian = parseInt(num1) / parseInt(num2);
+            document.getElementById('add').value = pembagian;
+		}
 	</script>
   </head>
   <body>
